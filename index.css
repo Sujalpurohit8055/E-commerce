@@ -474,6 +474,10 @@ a{
 
 @media(max-width:425px){
   /* Nav*/
+    a{
+        font-size:x-small;
+        align-items: center;
+    }
  
     .header{
         flex-direction: column;
