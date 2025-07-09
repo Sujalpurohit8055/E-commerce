@@ -1,0 +1,829 @@
+*{
+    padding:0%;
+    margin: 0%;
+}
+
+/* base */
+.header , .first  , .second , .third , .Four , .Five ,.Six , hr{
+    background-color:rgb(254, 250, 241);
+}
+
+a{
+    text-decoration: none;
+    color: #B42121;
+    display: flex;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0.2rem 1rem 0.2rem;
+}
+
+.company_name{
+    display: flex;
+}
+
+.header_option{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#buc_img{
+    display: flex;
+}
+
+.part_1{
+    position: relative;
+    width: 100%;
+    padding-bottom:5rem ;
+}
+
+.part{
+    width: 100%;
+    display: block;
+    opacity: 0.9;
+}
+
+.part_1 part{
+    width: 100%;
+    display: block;
+}
+
+.text{
+    position: absolute;
+    z-index: +1;
+    font-family:Libertinus Mono;
+    color:aliceblue;
+    background: none;
+}
+
+.text_2{
+    position:absolute;
+    left: 8%;
+    z-index : +1;
+    font-family:Libertinus Mono;
+    color: aliceblue;
+    background: none;
+}
+
+.bst_seller{
+    padding-bottom: 40px;
+    color: #B42121;
+    font-family:Libertinus Mono;
+}
+
+.Typ_of{
+    display: flex;
+    width: 100%;
+    justify-content:flex-start;
+    height: auto;
+    padding-bottom:80px ;
+}
+
+.f_1{
+    display:flex;
+    flex-direction: column;
+    padding-right: 3%;
+}
+
+#f_img_1{
+    display: flex;
+    width: 100%;    
+}
+
+.detail_1{
+    display: flex;
+    flex-direction: column;
+}
+
+#f_1_Name{
+    display: flex;
+    font-family: Libertinus Mono;
+    font-size: 2rem;
+    align-items: center;
+    color: #B42121;
+
+}
+
+#f_rate_1{
+    display: flex;
+    align-items: center;
+}
+
+.f_2{
+    display:flex;
+    flex-direction: column;
+    padding-right: 3%;
+}
+
+#f_img_2{
+    display: flex;
+    width: 100%;   
+}
+
+.detail_2{
+    display: flex;
+    flex-direction: column;
+}
+
+#f_2_Name{
+    display: flex;
+    font-family: Libertinus Mono;
+    font-size: 2rem;
+    align-items: center;
+    color: #B42121;
+}
+
+#f_rate_2{
+    display: flex;
+    align-items: center;
+}
+
+.f_3{
+    display:flex;
+    flex-direction: column;
+    padding-right: 3%;
+}
+
+#f_img_3{
+    display: flex;
+    width: 100%;    
+}
+
+.detail_3{
+    display: flex;
+    flex-direction: column;
+}
+
+#f_3_Name{
+    display: flex;
+    font-family: Libertinus Mono;
+    font-size: 2rem;
+    align-items: center;
+    color: #B42121;
+}
+
+#f_rate_3{
+    display: flex;
+    align-items: center;
+}
+
+
+/* second part*/
+
+.cat{
+    display: flex;
+   color: #B42121; 
+   font-family: Libertinus Mono;
+   padding-bottom:40px ;
+}
+
+.type{
+    display: flex;
+    width: 100%;
+}
+
+#t_1{
+    display: flex;
+    flex-direction: column;
+}
+
+#t_1_i{
+    display: flex;
+    width: 100%;
+}
+
+#t_1_p{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    color: #B42121; 
+    font-family: Libertinus Mono;
+}
+
+#t_2{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+#t_2_i{
+    display: flex;
+    width: 100%;
+    height: 27.9rem;
+}
+
+#t_2_p{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    color: #B42121; 
+    font-family: Libertinus Mono;
+}
+
+/* third Part */
+
+.head{
+    display: flex;
+    color: #B42121; 
+    font-family: Libertinus Mono;
+    padding-bottom:40px ;
+}
+
+.catg{
+    display: flex;
+}
+
+#catg_1{
+    display: flex;
+    flex-direction: column;
+}
+
+#catg1Head{
+    display: flex;
+    color: #B42121; 
+    font-family: Libertinus Mono;
+}
+#catg1Para{
+    display: flex;
+}
+
+#catg_2{
+    display: flex;
+    flex-direction: column;
+}
+
+#catg2Head{
+    display: flex;
+    color: #B42121; 
+    font-family: Libertinus Mono;
+}
+#catg2Para{
+    display: flex;
+}
+
+#catg_3{
+    display: flex;
+    flex-direction: column;
+}
+
+#catg3Head{
+    display: flex;
+    color: #B42121; 
+    font-family: Libertinus Mono;
+}
+#catg3Para{
+    display: flex;
+}
+
+/* fourth part */
+
+.flw_detl{
+    display: flex;
+    justify-content: space-between;
+}
+
+.first_flw{
+    display: flex;
+    flex-direction: column;
+}
+
+#firstflwImage{
+    width: 100%;
+}
+
+#firstflwName{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    color: #B42121; 
+    font-family: Libertinus Mono;
+}
+#firstflwRate{
+    display: flex;
+    justify-content: center;
+}
+
+.second_flw{
+    display: flex;
+    flex-direction:column;
+}
+
+.one_flw{
+    display: flex;
+    flex-direction: column;
+    margin-bottom:20px ;
+}
+#oneflwName{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    color: #B42121; 
+    font-family: Libertinus Mono;
+}
+#oneflwRate{
+    display: flex;
+    justify-content: center;
+}
+
+.Two_flw{
+    display: flex;
+    flex-direction: column;
+}
+#TwoflwName{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    color: #B42121; 
+    font-family: Libertinus Mono;
+}
+#TwoflwRate{
+    display: flex;
+    justify-content: center;
+}
+
+/* part_5 */
+
+#headingDtl{
+    display: flex;
+    color: #B42121; 
+    font-family: Libertinus Mono;
+}
+
+#headingjesture{
+    display: flex;
+}
+
+#madeBy{
+    display: flex;
+    color: #B42121; 
+    font-family: Libertinus Mono;
+}
+
+/* six_part */
+
+.six_one{
+    display: flex;
+    justify-content: space-between;
+}
+
+.six_img{
+    display: flex;
+    height: 20rem;
+}
+
+#sixImg{
+    display: flex;
+    width: 100%;
+}
+
+.six_feedback{
+    display: flex;
+    flex-direction: column;
+}
+#sixFeedHead{
+    display: flex;
+    color: #B42121; 
+    font-family: Libertinus Mono;
+    padding-bottom:40px;
+}
+
+#sixFeedPara{
+   display: flex;
+}
+
+#inform{
+    display: flex;
+    justify-content: space-between;
+}
+
+#input{
+    display: flex;
+    height: 3rem;
+}
+
+#send{
+    display: flex;
+    justify-content: space-around;
+    background-color: #B42121;
+    align-items: center;
+    color: aliceblue;
+    font-size: larger;
+    width: 20%;
+}
+
+/* footer  */
+
+.footer{
+    background-color: white;
+}
+
+.full_detail{
+    display: FLEX;
+    flex-direction: column;
+}
+
+.footer_1{
+   display: FLEX;
+   width: 100%;
+   flex-direction: column;
+}
+
+#footer_1_head{
+    display: flex;
+    justify-content: flex-start;
+    font-size: xx-large;
+    color: #B42121; 
+    font-family: Libertinus Mono;
+    padding: 40px 0 40px 0;
+}
+#footer_1_para{
+    display: flex;
+    padding: 0 0 40px 0;
+}
+#footer_1_detail{
+    display: flex;
+    padding: 0 0 40px 0;
+}
+
+.follow{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#followOne{
+    display: flex;
+    width: 3%;
+    
+}
+#followTwo{
+    display: flex;
+    width: 3%;
+    padding: 0 3% 0 3%;
+    
+} 
+#followThird{
+    display: flex;
+    width: 3%;   
+}  
+
+/*Mobile*/
+
+@media(max-width:425px){
+  /* Nav*/
+ 
+    .header{
+        flex-direction: column;
+    }
+
+    .company_name{
+        width: 100%;
+        padding-bottom:20px ;
+    }
+
+    .header_option{
+        width: 100%;
+    }
+
+    #bus_img{
+        height: 1.5rem;
+    }
+
+    #hr{
+        padding: 20px 0px 40px 0px;
+    }
+
+  /*section*/
+
+    .text{
+        top: 40%;
+        left: 5%;
+        font-size: 3.5rem;
+    }
+
+    .text_2{
+        top: 60%;
+        left: 5%;
+        font-size: 1.5rem;
+    }
+
+    .bst_seller{
+        font-size: 5rem;
+    }
+
+    .Typ_of{
+        flex-direction: column;
+    }
+
+    .f_1 , .f_2 , .f_3{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .cat{
+        font-size: 5rem;
+    }
+
+    .type{
+        flex-direction: column;
+        height: 55rem;
+        padding-bottom: 40px;
+    }
+
+    #t_1_i{
+        height: 20rem;;
+    }
+
+    #t_1{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    #t_2{
+        width: 100%;
+    }
+
+    .head{
+       font-size: 2.5em;
+       justify-content: flex-start; 
+    }
+
+    .catg{
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+
+    #catg_1 , #catg_2 , #catg_3{
+        width: 100%;
+    }
+
+    #catg1Para , #catg2Para , #catg3Para {
+        text-align: start;
+    }
+
+    #catg1Head , #catg2Head , #catg3Head{
+        justify-content: flex-start;
+        font-size: large;
+        padding : 15px 0 15px 0;
+    }
+
+    .flw_detl{
+        flex-direction:  column;
+        padding-bottom: 50px;
+    }
+
+    .first_flw , .second_flw {
+        width: 100%;
+        padding-bottom:20px ;
+    }
+
+    .heading{
+        padding-bottom: 50px;
+    }
+
+    #headingDtl{
+        font-size: 2.5em;
+        justify-content: flex-start;
+        padding-bottom:20px;
+    }
+
+    #headingjesture{
+        text-align: start;
+        padding-bottom:20px;
+    }
+
+    #madeBy{
+        justify-content: flex-start;
+        font-size: large;
+    }
+
+    .six_one{
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+
+    .six_img{
+        width: 100%;
+        padding-bottom:20px ;
+    }
+
+    .six_feedback{
+        width: 100%;
+    }
+
+    #sixFeedHead{
+        font-size: 1.5em;
+        justify-content: flex-start;
+        padding-bottom: 20px;
+    }
+
+    #sixFeedPara{
+        padding-bottom:20px;
+    }
+
+    #inform{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #input{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #send{
+        width: 100%;
+        height: 50px;
+        border-radius: 5px;
+    }
+
+    .full_detail{
+        width: 100%;
+    }
+
+}
+
+/* laptop */
+
+@media (min-width:1024px){
+    .header{
+        flex-direction: row;
+    }
+
+    .company_name{
+        width: 50%;
+    }
+
+    .header_option{
+        width: 30%;
+    }
+
+    #bus_img{
+        height: 1.5rem;
+    }
+
+    #hr{
+    padding: 20px 0px 60px 0px;
+    }
+
+    .text{
+        top: 55%;
+        left: 8%;
+        font-size: 10em;
+    }
+
+    .text_2{
+        top: 75%;
+        left: 8%;
+        font-size: 2.5em;
+    }
+
+    .bst_seller{
+        font-size: 100px;
+    }
+
+    .Typ_of{
+        flex-direction: row;
+    }
+    
+    .f_1 , .f_2 , .f_3{
+        width: 20%;
+    }
+
+    #f_img_1 , #f_img_2 , #f_img_3{
+        height: 15rem;
+    }
+
+    .cat{
+        font-size: 100px;
+    }
+
+    #t_1_i{
+        height: 40rem;;
+    }
+
+    .type{
+        flex-direction: row;
+        height: 30rem;
+        justify-content: space-between;
+        padding-bottom: 100px;
+    }
+
+    #t_1{
+        width: 48%;
+    }
+
+    #t_2{
+        width: 48%;
+    }
+
+    .head{
+       font-size: 6em;
+       justify-content: space-around;
+    }
+
+    .catg{
+        flex-direction: row;
+        padding-bottom: 100px;
+        justify-content: center; 
+    }
+
+    #catg_1 , #catg_2 , #catg_3{
+        width: 30%;
+    }
+
+    #catg1Head , #catg2Head , #catg3Head{
+        justify-content: center;
+        font-size: xx-large;
+        padding-bottom:30px;
+    }
+
+    #catg1Para , #catg2Para , #catg3Para {
+        text-align: center;
+    }
+
+    #catg_1 {
+        margin-right: 2%;
+    } 
+
+    #catg_3 {
+        margin-left: 2%;
+    } 
+
+    #catg_2{
+        border-right: solid;
+        border-left: solid;
+        padding: 0% 3% 0 3%;
+    }
+
+    .flw_detl{
+        flex-direction: row;
+        padding-bottom: 100px;
+    }
+
+    .first_flw , .second_flw {
+        width: 48%;
+    }
+
+    #firstflwImage{
+        height: 60rem;
+    }
+
+    .heading{
+        padding-bottom: 100px;
+    }
+
+    #headingDtl{
+        font-size: 6em;
+        justify-content: space-around;
+        padding-bottom:40px;
+    }
+
+    #headingjesture{
+        text-align: center;
+        padding-bottom:40px;
+    }
+
+    #madeBy{
+        justify-content: center;
+        font-size: xx-large;
+    }
+
+    .six_one{
+        flex-direction: row;
+        padding-bottom: 100px;
+    }
+
+    .six_img{
+        width: 38%;
+    }
+
+    .six_feedback{
+        width: 58%;
+    }
+
+    #sixFeedHead{
+        font-size: 3em;
+        justify-content: space-around;
+        padding-bottom:40px;
+    }
+
+    #sixFeedPara{
+        padding-bottom:40px ;
+    }
+
+    #input{
+        width: 75%;
+    }
+
+    #send{
+        width: 20%;
+    }
+
+    .full_detail{
+        width: 48%;
+    }
+}
