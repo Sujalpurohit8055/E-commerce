@@ -4,8 +4,10 @@
 }
 
 /* base */
+
 .header , .first  , .second , .third , .Four , .Five ,.Six , hr{
     background-color:rgb(254, 250, 241);
+    padding: 0% 3% 0 3%;
 }
 
 a{
@@ -366,6 +368,7 @@ a{
 
 .six_one{
     display: flex;
+    width: 100%;
     justify-content: space-between;
 }
 
@@ -418,6 +421,7 @@ a{
 
 .footer{
     background-color: white;
+    padding: 0% 1% 0 1%;
 }
 
 .full_detail{
@@ -474,6 +478,7 @@ a{
 
 @media(max-width:425px){
   /* Nav*/
+
     a{
         font-size:x-small;
         align-items: center;
@@ -497,7 +502,7 @@ a{
     }
 
     #hr{
-        padding: 20px 0px 40px 0px;
+        padding: 2% 0px 4% 0px;
     }
 
   /*section*/
